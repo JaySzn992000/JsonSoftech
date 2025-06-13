@@ -1,0 +1,77 @@
+/* Done */
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.Techslider_div {
+display: flex;
+align-items: center;
+width: 85%;
+margin: auto;
+margin-top: 3.7em;
+overflow: hidden;
+}
+
+.Techslider_div {
+margin-top: 4.7em;
+}
+
+.Techslider_div img {
+width: 107px !important;
+}
+
+.Techflex_col_home {
+cursor: pointer;
+margin: 7.7em 0em 13.7em 0em;
+}
+
+.Techflex_col_home h1 {
+line-height: 1.5em;
+font-size: 1.8rem;
+text-align: center;
+width: 45%;
+margin: auto;
+font-weight: bold;
+
+}
+
+
+.Techflex_col_home span {
+    color: rgb(93, 20, 161);
+}
+
+
+@media (max-width: 1024px) {
+
+.Techflex_col_home {
+width: 100%;
+padding: 16px;
+margin: auto;
+overflow: hidden;
+margin-top: 3.3em;
+}
+
+.Techslider_div {
+display: flex;
+width: 95%;
+height: auto;
+margin: auto;
+margin-top: 4.3em;
+}
+
+.Techslider_div div p {
+margin-left: 6.5vw;
+}
+
+.Techslider_div img {
+width: 57px !important;
+}
+
+.Techflex_col_home h1 {
+font-size: 1.5rem;
+width: 85%;
+margin: auto;
+
+}
+
+}

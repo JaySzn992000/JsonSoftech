@@ -1,0 +1,134 @@
+/* Done */
+
+.technology_c {
+width: 100%;
+margin: auto;
+margin-top: 7.7em;
+}
+
+.technology_c .technology_ptag {
+width: 70%;
+margin: auto;
+}
+
+.technology_c h1 {
+text-align: center;
+margin-bottom: 0.7em;
+}
+
+.techology_flex {
+display: flex;
+gap: 3.7vw;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin-top: 4.7em;
+}
+
+
+.techology_flex .flex_main_con div {
+padding: 1.06em;
+margin: 2em;
+text-align: center;
+border-radius: 7px;
+background-color: rgb(236, 239, 241);
+transition: background-color 0.3s, color 0.3s;
+cursor: pointer;
+}
+
+.techology_flex .flex_main_con div:hover {
+background-color: rgb(78, 28, 204);
+}
+
+.techology_flex .flex_main_con div:hover h2,
+.techology_flex .flex_main_con div:hover p {
+color: white;
+}
+
+.technology_c p {
+font-size: 1.1rem;
+margin-top: 1.3em;
+hyphens: auto;
+margin: auto;
+width: 80%;
+text-align: center;
+
+}
+
+.technology_c .flex_main_con h2 {
+font-size: 1.5rem;
+line-height: 1.7em;
+text-align: center;
+color: rebeccapurple;
+}
+
+.technology_c .techology_flex img {
+width: 535px;
+cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+.techology_flex {
+flex-direction: column;
+margin-top: 2.7em;
+}
+
+.technology_c {
+width: 100%;
+}
+
+.technology_c .technology_ptag {
+width: 85%;
+margin: auto;
+}
+
+
+.technology_c .techology_flex img {
+width: 90vw;
+}
+
+.techology_flex .flex_main_con div {
+padding: 2em;
+width: 85%;
+text-align: center;
+margin-left: 8.1vw;
+}
+
+.techology_flex .flex_main_con div p {
+text-align: center;
+}
+
+.technology_c {
+width: 100%;
+}
+
+.technology_c p {
+width: 85%;
+text-align: justify;
+line-height: 2.2em;
+}
+}
+
+/*  */
+
+@media (min-width: 1024px) and (max-width: 1516px) {
+.technology_c {
+width: 100%;
+margin: auto;
+margin-top: 7.7em;
+}
+
+.technology_c .techology_flex img {
+width: 417px;
+cursor: pointer;
+}
+
+.techology_flex {
+margin-top: 2.7em;
+}
+
+.technology_c p {
+width: 85%;
+}
+
+}

@@ -1,0 +1,78 @@
+/* Done */
+
+.Tech_web {
+margin-top: 4.1em;
+}
+
+.Tech_web div {
+display: flex;
+justify-content: center;
+margin-top: 3.7em;
+gap: 4.7vw;
+}
+
+.Tech_web span {
+width: 275px;
+}
+
+.Tech_web h1 {
+font-weight: bold;
+text-align: center;
+}
+
+.Tech_web h2 {
+margin-top: 0.9em;
+font-size: 1.3rem;
+color: #371d64;
+text-align: center;
+
+}
+
+
+.Tech_web h2 span {
+color: orangered;
+font-weight: bold;
+}
+
+.Tech_web span img {
+width: 117px;
+margin-top: 2.5em;
+cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+.Tech_web {
+width: 100%;
+margin: auto;
+padding: 27px;
+margin-top: 2.3em;
+}
+
+.Tech_web h1 {
+font-size: 1.6rem;
+}
+
+.Tech_web h2 {
+line-height: 1.5em;
+font-size: 1.4rem;
+}
+
+.Tech_web div {
+flex-direction: column;
+padding: 0;
+gap: 3.7vw;
+}
+
+.Tech_web span {
+width: 95%;
+}
+
+.Tech_web span img {
+margin-top: 3.1em;
+width: 97px;
+}
+}

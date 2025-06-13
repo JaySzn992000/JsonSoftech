@@ -1,0 +1,42 @@
+/* Done */
+
+.flex_col_home {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flex_col_home img {
+width: 525px;
+}
+
+.Dash_board {
+width: 1054px;
+}
+
+.h1_Dash {
+font-size: 2.1rem;
+margin-top: 5.7em;
+text-align: center;
+
+}
+
+@media (max-width: 1024px) {
+
+.flex_col_home {
+flex-direction: column;
+}
+
+.flex_col_home .slider_img {
+width: 100%;
+}
+
+.h1_Dash {
+margin-top: 7vh;
+font-size: 1.9rem;
+padding: 17px;
+width: 85%;
+margin: auto;
+line-height: 1.5em;
+}
+}

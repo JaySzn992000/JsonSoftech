@@ -1,0 +1,37 @@
+/* Done */
+
+.small_nav {
+display: flex;
+justify-content: space-around;
+padding: 0.7em;
+background-color: whitesmoke;
+
+}
+
+.small_nav div {
+display: flex;
+gap: 1vw;
+}
+
+.small_nav div i {
+font-size: 1.7rem;
+}
+
+
+@media (max-width: 1024px) {
+.small_nav ul {
+display: none;
+}
+
+.small_nav div {
+width: 85%;
+gap: 3.7vw;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1516px) {
+.small_nav ul li {
+font-size: 0.9rem;
+}
+
+}

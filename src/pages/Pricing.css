@@ -1,0 +1,146 @@
+/* Done */
+
+.Webs_itePrice h1 {
+font-size: 2.7rem;
+text-align: center;
+margin: 0.3em 0em 0.7em 0em;
+}
+
+.Webs_itePrice {
+margin-top: 3.7em;
+}
+
+.Webs_itePrice .Div_webPrice h1 {
+font-size: 2.7rem;
+margin: 0.3em 0em 0.3em 0em;
+color: white;
+}
+
+.Webs_itePrice p {
+color: white;
+}
+
+.Webs_itePrice .Web_flex {
+display: flex;
+justify-content: center;
+}
+
+.Webs_itePrice .Div_webPrice {
+padding: 37px;
+width: 277px;
+border-radius: 7px;
+line-height: 2.3em;
+margin-top: 1.3em;
+}
+
+.Webs_itePrice .Div_fnd {
+background-color: rgb(67, 41, 182);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Webs_itePrice .Div_snd {
+background-color: rgb(218, 16, 56);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Webs_itePrice .Div_trd {
+background-color: rgb(141, 26, 218);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Webs_itePrice .Div_fnd:hover,
+.Webs_itePrice .Div_snd:hover,
+.Webs_itePrice .Div_trd:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Webs_itePrice ul {
+line-height: 2.7em;
+margin-top: 2.7em;
+text-align: start;
+padding-left: 20px;
+list-style-type: none;
+}
+
+.Webs_itePrice ul li {
+position: relative;
+padding-left: 30px;
+margin-bottom: 15px;
+font-size: 1rem;
+color: #333;
+}
+
+.Webs_itePrice ul li::before {
+content: "✔️";
+color: slateblue;
+position: absolute;
+left: -1em;
+top: 0;
+font-size: 1.3rem;
+}
+
+.Webs_itePrice h1,
+h2,
+p,
+li {
+flex-wrap: wrap;
+}
+
+.Webs_itePrice h1 {
+font-size: 2.7rem;
+margin: 0.3em 0em 0.7em 0em;
+}
+
+.Webs_itePrice p {
+color: #fff;
+font-size: 1.1rem;
+}
+
+.Webs_itePrice .Web_flex {
+display: flex;
+gap: 8.7vw;
+justify-content: center;
+}
+
+.Webs_itePrice .Div_webPrice {
+padding: 37px;
+width: 277px;
+border-radius: 7px;
+line-height: 2.3em;
+margin-top: 1.3em;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+.Webs_itePrice .Web_flex {
+flex-direction: column;
+}
+
+.Webs_itePrice .Div_webPrice {
+width: 100%;
+margin: auto;
+}
+
+.Webs_itePrice {
+width: 80%;
+margin: auto;
+margin-top: 13vh;
+}
+
+.Webs_itePrice h1 {
+width: 100%;
+font-size: 2.3rem;
+margin: 0.7em 0em 1.3em 0em;
+}
+
+}

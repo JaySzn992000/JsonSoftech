@@ -1,0 +1,84 @@
+/* Done */
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.flex_col_home {
+display: flex;
+gap: 5.7vw;
+cursor: pointer;
+margin-top: 2.7em;
+}
+
+.slider_div {
+display: flex;
+width: 537px;
+line-height: 3.1em;
+overflow: hidden;
+}
+
+
+.flex_col_home .slider_img {
+width: 507px;
+}
+
+
+.flex_col_home h1 {
+font-size: 1.8rem;
+}
+
+
+
+@media (max-width: 1024px) {
+.flex_col_home {
+width: 95%;
+margin: auto;
+gap: 3.7em;
+padding: 7px;
+overflow: hidden;
+margin-top: 7vh;
+}
+
+.slider_div {
+width: 100%;
+height: auto;
+margin: auto;
+text-align: center;
+margin-left: -0.6em;
+}
+
+.slider_div div h1 {
+font-size: 1.7rem;
+margin-left: 6.5vw;
+line-height: 1.6em;
+margin-top: 0.5em;
+text-align: center;
+}
+
+.slider_div div p {
+margin-left: 6.5vw;
+text-align: center;
+}
+}
+
+/*  */
+
+@media (min-width: 1024px) and (max-width: 1516px) {
+.slider_div {
+align-items: center;
+}
+
+.slider_div h1 {
+font-size: 1.5rem;
+}
+
+.flex_col_home {
+width: 90vw;
+margin: auto;
+margin-top: 1.7em;
+}
+
+.flex_col_home .slider_img {
+width: 505px;
+}
+}
