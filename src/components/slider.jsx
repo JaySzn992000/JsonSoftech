@@ -25,6 +25,7 @@ return (
 <div className="flex_col_home">
 
 <img className="slider_img" src={Web_devImg}></img>
+
 {/* <img className="slider_img" src="https://img.freepik.com/free-vector/group-professionals-analyzing-international-map-with-pointers-charts-team-doing-global-business-research_74855-14035.jpg?ga=GA1.1.1905236279.1730002908&semt=ais_hybrid"></img> */}
 
     

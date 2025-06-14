@@ -13,26 +13,24 @@ overflow: hidden;
 }
 
 .Techslider_div {
-margin-top: 4.7em;
+margin-top: 3.3em;
 }
 
 .Techslider_div img {
-width: 107px !important;
+width: 97px !important;
 }
 
 .Techflex_col_home {
 cursor: pointer;
-margin: 7.7em 0em 13.7em 0em;
+margin: 6.5em 0em 13.7em 0em;
 }
 
 .Techflex_col_home h1 {
-line-height: 1.5em;
+line-height: 1.7em;
 font-size: 1.8rem;
 text-align: center;
 width: 45%;
 margin: auto;
-font-weight: bold;
-
 }
 
 

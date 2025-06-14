@@ -56,21 +56,21 @@ Json
 <li onClick={() => handleNavigation("/About")}>
 <a>About</a>
 </li>
-{/* <li onClick={() => handleNavigation("/Services")}>
+<li onClick={() => handleNavigation("/Services")}>
 <a>Services</a>
-</li> */}
+</li>
 <li onClick={() => handleNavigation("/Contactus")}>
 <a>Contact</a>
 </li>
-{/* <li onClick={() => handleNavigation("/Technologies")}>
+<li onClick={() => handleNavigation("/Technologies")}>
 <a>Technologies</a>
-</li> */}
-{/* <li onClick={() => handleNavigation("/Pricing")}>
+</li>
+<li onClick={() => handleNavigation("/Pricing")}>
 <a>Pricing</a>
-</li> */}
-{/* <li onClick={() => handleNavigation("/GetCostProject")}>
+</li>
+<li onClick={() => handleNavigation("/GetCostProject")}>
 <a>Get Project Cost</a>
-</li> */}
+</li>
 <button>
 <a>Call: +91 920 552 7356</a>
 </button>

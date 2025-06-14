@@ -21,7 +21,24 @@ text-align: center;
 
 }
 
+
+.whatsapp_icon {
+width: 60px;
+height: auto;
+position: fixed;
+left: 3em;
+bottom: 2.7em;
+}
+
+
+
 @media (max-width: 1024px) {
+
+.whatsapp_icon{
+position: fixed;
+left: 1.5em;
+}
+
 
 .flex_col_home {
 flex-direction: column;

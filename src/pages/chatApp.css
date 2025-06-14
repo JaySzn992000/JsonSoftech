@@ -1,8 +1,8 @@
 .message_icon {
 position: fixed;
-width: 127px;
-bottom: -7px;
-right: -7px;
+width: 97px;
+bottom: 11px;
+right: 7px;
 cursor: pointer;
 z-index: 1010;
 }
@@ -89,6 +89,7 @@ margin-top: 1.1em;
 }
 
 @media (max-width: 400px) {
+
 .chatApp_form {
 width: 90%;
 bottom: 10px;

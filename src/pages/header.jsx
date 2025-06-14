@@ -18,12 +18,15 @@ return (
 <div className="headerdiv_">
 <h1 style={{ color: "white", fontSize: "2.7rem" }}>Json Softech</h1>
 <p>
-As a Freelancer, I embody Json Softech's reputation for excellence
-in professional Website Development and design. Specializing in
-strategy Development and hosting, I offer a one-stop solution for
-your online success. Operated solely by me, Jay, a dedicated
-individual passionate about delivering top-notch solutions, I am
-committed to ensuring the success of your website projects.
+At JSON Softech, we uphold a strong reputation for excellence 
+in professional website development and design.
+Specializing in strategic development, design, and hosting, 
+we provide a one-stop solution for your online success. 
+Though independently operated by our founder Jay, JSON Softech functions 
+with the efficiency and dedication of a full-service agency — focused on delivering 
+top-notch web solutions tailored to your business goals.
+We are committed to ensuring the long-term success 
+of every website project we take on.
 </p>
 </div>
 
@@ -49,7 +52,7 @@ committed to ensuring the success of your website projects.
 <li onClick={() => handleNavigation("/About")}>
 <a>About</a>
 </li>
-{/* <li onClick={() => handleNavigation("/Services")}>
+<li onClick={() => handleNavigation("/Services")}>
 <a>Services</a>
 </li>
 <li onClick={() => handleNavigation("/Technologies")}>
@@ -57,9 +60,9 @@ committed to ensuring the success of your website projects.
 </li>
 <li onClick={() => handleNavigation("/Pricing")}>
 <a>Pricing</a>
-</li> */}
+</li>
 <li onClick={() => handleNavigation("/GetCostProject")}>
-<a>Contact</a>
+<a>Get Project Cost</a>
 </li>
 </ul>
 
@@ -77,14 +80,14 @@ committed to ensuring the success of your website projects.
 <a href="">Website Development</a>
 </li>
 <li>
-{/* <a href="">API Integration</a> */}
+<a href="">API Integration</a>
 </li>
-{/* <li>
+<li>
 <a href="">Web Hosting</a>
-</li> */}
-{/* <li>
+</li>
+<li>
 <a href="">Business Solutions</a>
-</li> */}
+</li>
 </ul>
 </header>
 

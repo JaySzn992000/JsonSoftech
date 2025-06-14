@@ -11,7 +11,9 @@ import ChatApp from "./chatApp";
 import "./home.css";
 
 const Home = () => {
+
 return (
+
 <div>
 <Topnavbar></Topnavbar>
 <Navbar></Navbar>
@@ -23,7 +25,7 @@ return (
 {/*  */}
 
 <AboutSection></AboutSection>
-{/* <Industries></Industries> */}
+<Industries></Industries>
 
 {/*  */}
 
@@ -32,6 +34,12 @@ return (
 <ContactusForm></ContactusForm>
 <ChatApp></ChatApp>
 <Header></Header>
+
+<a href="https://api.whatsapp.com/send/?phone=9311071290&text&type=phone_number&app_absent=0" target="_blank">
+<img className="whatsapp_icon"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="Chat on WhatsApp"/>
+</a>
+
 </div>
 
 );

@@ -18,12 +18,16 @@ return (
 <h1>About !</h1>
 <h2> E-commerce & Dashboard's Development. </h2>
 <p>
+
 {" "}
-I run JSON Softech, a Web Developement specializing in creative and
-high-performance web solutions for small and mid-size businesses. As
-the sole proprietor, I focus on delivering personalized services,
-tailoring each project to meet the unique needs of my clients.{" "}
+We are JSON Softech — a Web Development company specializing in creative, 
+high-performance web solutions tailored for small and mid-sized businesses.
+Our team is committed to delivering personalized, scalable, and 
+results-driven digital experiences. At JSON Softech, we take pride in understanding 
+our clients’ unique needs and turning their ideas into fully functional, user-friendly
+ websites and web applications.{" "}
 </p>
+
 </div>
 </div>
 

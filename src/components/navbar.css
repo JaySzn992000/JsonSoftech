@@ -23,7 +23,9 @@ nav .logo_div {
 display: flex;
 text-align: start;
 align-items: center;
+cursor: pointer;
 }
+
 
 nav .logo_div img {
 width: 81px;

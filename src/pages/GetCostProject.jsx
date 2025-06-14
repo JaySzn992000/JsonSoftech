@@ -8,6 +8,7 @@ import ChatApp from "./chatApp";
 import Projctcst from "../Images/Projctcst.png";
 
 const App = () => {
+
 const [selectedOption, setSelectedOption] = useState("html-css-js");
 const [numPages, setNumPages] = useState(1);
 const [totalCost, setTotalCost] = useState(699);
@@ -107,7 +108,7 @@ return (
 
 <div className="container">
 {/* <img src={Projctcst}></img> */}
-<img src="https://img.freepik.com/free-vector/hand-drawn-people-analyzing-growth-charts_23-2148832151.jpg?ga=GA1.1.1905236279.1730002908&semt=ais_hybrid"></img>
+<img src="https://img.freepik.com/free-vector/accounting-concept-illustration_114360-23749.jpg?ga=GA1.1.558633422.1741516213&semt=ais_hybrid&w=740"></img>
 
 <form className="form">
 <h1 className="heading">Project Cost Calculator</h1>

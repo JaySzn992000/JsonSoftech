@@ -8,9 +8,9 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Technologies from "./pages/technologies";
 import Pricing from "./pages/Pricing";
 import GetCostProject from "./pages/GetCostProject";
-import Aimlay from "./components/Aimlay";
 
 function App() {
+
 return (
 <div className="App">
 <Router>
@@ -23,7 +23,6 @@ return (
 <Route path="/Pricing" element={<Pricing />}></Route>
 <Route path="/GetCostProject" element={<GetCostProject />}></Route>
 <Route path="/Home" element={<Home />}></Route>
-<Route path="/Aimlay" element={<Aimlay />}></Route>
 </Routes>
 </Router>
 </div>

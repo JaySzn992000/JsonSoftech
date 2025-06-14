@@ -16,6 +16,11 @@ margin: 0.3em 0em 0.3em 0em;
 color: white;
 }
 
+
+.Webs_itePrice h2 {
+text-align: center;
+}
+
 .Webs_itePrice p {
 color: white;
 }
@@ -121,7 +126,9 @@ margin-top: 1.3em;
 box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
+
 @media (max-width: 1024px) {
+
 .Webs_itePrice .Web_flex {
 flex-direction: column;
 }
